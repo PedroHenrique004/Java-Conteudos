@@ -1,4 +1,4 @@
-package Modulos_teste.Modulo7;
+package Modulos.Mod7_ClassesEMetodos;
 
 public class PrimeiraClasse {
     /**

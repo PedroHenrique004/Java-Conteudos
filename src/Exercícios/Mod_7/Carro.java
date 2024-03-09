@@ -1,5 +1,11 @@
 package Exercícios.Mod_7;
 
+/**
+ * @author Pedro Santos
+ *
+ * Criação de um classe carro
+ */
+
 public class Carro {
     private String marcaDoCarro;
 
