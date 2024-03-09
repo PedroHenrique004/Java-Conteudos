@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EBAC-Java-Conteudos.iml" filepath="$PROJECT_DIR$/EBAC-Java-Conteudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Conteudos.iml" filepath="$PROJECT_DIR$/Java-Conteudos.iml" />
     </modules>
   </component>
 </project>

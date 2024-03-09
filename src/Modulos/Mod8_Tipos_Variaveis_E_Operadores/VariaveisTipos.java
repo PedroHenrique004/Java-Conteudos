@@ -1,4 +1,4 @@
-package Modulos.Mod8_TiposDeVariaveisEOperadores;
+package Modulos.Mod8_Tipos_Variaveis_E_Operadores;
 
 public class VariaveisTipos {
 
