@@ -1,11 +1,12 @@
 package Exercícios.Mod_11;
 
-
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Tarefa {
+public class Tarefa2 {
+
     static List<Pessoa> listaPessoas = new ArrayList<>();
     static List<String> listaMasculino = new ArrayList<String>();
     static List<String> listaFeminina = new ArrayList<String>();
@@ -13,7 +14,13 @@ public class Tarefa {
     public static void main(String[] args) {
 
         cadastraPessoas();
+        ordemAlfabetica();
         listasPorSexo();
+    }
+
+    private static void ordemAlfabetica() {
+        Collections.sort(listaFeminina);
+        Collections.sort(listaMasculino);
     }
 
     private static void cadastraPessoas() {
