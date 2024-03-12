@@ -1,15 +1,24 @@
 package Modulos.Mod11_Colecoes_2;
 
+import java.util.Scanner;
+
 public class BubbleSort {
 
-    static int[] vet = {8,9,3,5,1};
-
     public static void main(String[] args) {
-        exibeAleatorio();
-        exibeOrdenado();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite os números que você gostaria de ordenar, separados por vírgulas:");
+        String[] input = scanner.nextLine().split(",");
+        int[] vet = new int[input.length];
+
+        for (int i = 0; i < input.length; i++) {
+            vet[i] = Integer.parseInt(input[i].trim());
+        }
+
+        exibeAleatorio(vet);
+        exibeOrdenado(vet);
     }
 
-    private static void exibeOrdenado() {
+    private static void exibeOrdenado(int[] vet) {
         System.out.println("Ordem organizada : ");
 
         for(int i = 0; i < vet.length; i++){
@@ -32,7 +41,7 @@ public class BubbleSort {
         }
     }
 
-    private static void exibeAleatorio() {
+    private static void exibeAleatorio(int[] vet) {
         System.out.println(" Ordem inicial : ");
         for (int i : vet){
             System.out.println(i);
