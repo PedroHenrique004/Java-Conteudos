@@ -1,4 +1,4 @@
-package Exercícios.Mod_8;
+package Exercicios.Mod_8;
 import java.util.Scanner;
 
 public class MediaNotas {

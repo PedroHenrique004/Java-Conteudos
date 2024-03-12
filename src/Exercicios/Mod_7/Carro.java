@@ -1,4 +1,4 @@
-package Exercícios.Mod_7;
+package Exercicios.Mod_7;
 
 /**
  * @author Pedro Santos

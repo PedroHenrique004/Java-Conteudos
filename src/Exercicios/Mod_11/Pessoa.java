@@ -1,4 +1,4 @@
-package Exercícios.Mod_11;
+package Exercicios.Mod_11;
 
 public class Pessoa {
 

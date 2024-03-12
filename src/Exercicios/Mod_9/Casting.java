@@ -1,4 +1,4 @@
-package Exercícios.Mod_9;
+package Exercicios.Mod_9;
 
 import java.util.Scanner;
 
